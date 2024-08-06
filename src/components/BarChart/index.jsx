@@ -43,8 +43,8 @@ function linechart() {
 
   return (
     <BarChart
-      width={1500}
-      height={750}
+      width={1200}
+      height={600}
       series={[
         ...chartData.series,
         seriesB,
