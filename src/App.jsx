@@ -1,12 +1,11 @@
 import React from 'react';
-import BarChart from './components/BarChart';
-import { CssBaseline } from '@mui/material';
+import CurrencyLineChart from './components/LineChart';
 
 function App() {
   return (
     <div className="App">
-      <CssBaseline />
-      <BarChart />
+      <h1>Currency Exchange Line Chart</h1>
+      <CurrencyLineChart />
     </div>
   );
 }
